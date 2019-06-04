@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link, withRouter } from "react-router-dom";
 
-import Logo from "../../assets/logo.svg";
+import Logo from "../../assets/avatar.png";
 import api from "../../services/api";
 import { login } from "../../services/auth";
 
