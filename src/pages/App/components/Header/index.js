@@ -3,34 +3,13 @@ import React from "react";
 import { Navbar, NavItem, Row, Icon} from 'react-materialize';
 
 const Header = () => (
-  <div>
-    <div className="section">
-      <Navbar brand={<a />} alignLinks="right">
-        <NavItem href="get-started.html">
-          <Icon>
-            search
-          </Icon>
-        </NavItem>
-      </Navbar>
-    </div>
-    <div className="section">
-        <Navbar brand={<a />} alignLinks="right">
-          <NavItem href="get-started.html">
-            Link with left icon
-            <Icon left>
-              search
-            </Icon>
-          </NavItem>
-          <NavItem href="get-started.html">
-            Link with right icon
-              <Icon right>
-                view_module
-              </Icon>
-          </NavItem>
-        </Navbar>
-    </div>
+  <div className="section">
+    <Navbar brand={<a />} alignLinks="right">
+      <NavItem href="get-started.html">
+        
+      </NavItem>
+    </Navbar>
   </div>
-
 );
 
 export default Header;
